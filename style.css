@@ -1,0 +1,27 @@
+body{
+    text-align: center;
+    background-image: url("https://img.freepik.com/free-vector/gradient-pastel-sky-background_23-2148917404.jpg?w=2000");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#heh{
+    float:right;
+}
+canvas{
+    border:7px ridge rgb(243, 242, 214);
+    border-radius:20px;
+    animation-name:haha;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes haha{
+    from{
+        box-shadow:1px 1px 50px rgb(255, 183, 207);
+    }
+    to{
+        box-shadow:1px 1px 30px rgb(235, 225, 156);
+    }
+}
+#haa{
+    margin-top: 600px;
+}
